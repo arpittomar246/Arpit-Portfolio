@@ -421,7 +421,8 @@ nav .fas{
     nav .fas{
         display: block;
         font-size: 25px;
-        margin-left: 5px;
+        position: relative;
+        left: 10px;
     }
     nav ul{
         background: #ff004f;
