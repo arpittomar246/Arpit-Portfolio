@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arpit Tomar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="ArpitImage.jpeg" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://kit.fontawesome.com/33dea2ef82.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="logo.png" class="logo" alt="" />
+          <ul id="sidemenu">
+            <li>
+              <a href="#header">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <i class=" fas fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Hello Mate, myself</p>
+          <h1>Arpit Tomar</h1>
+          <h5>And I'm a</h5>
+          <h1><span class="typing"></span></h1>
+          <a href="Resume.pdf" download class="btn btn2 btn3">Download Resume</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <div class="abc">
+              <!-- <h1 class="sub-title">About Me</h1> -->
+              <img src="aboutme.png" alt="">
+              <img src="about.png" alt="">
+              
+            </div>
+          </div>
+          <div class="about-col-2">
+            <p>
+              Enthusiastic individual seeking to start a career as an
+              entry-level software engineer/developer with a reputed firm driven
+              by technology. Proficient in C++ and Full MERN stack development
+              which includes Advanced JS, React.js, Node,js, jQuery, Express.js,
+              Database(MongoDB) and frontend technologies. Seeking to raise
+              coding KPIs by providing error-free codes. Ability to translate
+              business requirements into innovative software solutions.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span><h3>Front-End</h3></span><br /><p style="margin-top: -20px;">React.js, jQuery, Advanced
+                    Javascript, HTML5, Bootstrap</p>
+                </li>
+                <li>
+                  <span><h3>Back-End</h3></span><br />
+                  <p style="margin-top: -20px;">Node.js, Express.js,
+                    Database-(MongoDB)</p>
+                </li>
+                <li><span><h3>Languages</h3></span><br />
+                    <p style="margin-top: -20px;">C++, C</p></li>
+                <li><span><h3>Developer Tools</h3></span><br /><p style="margin-top: -20px;">Git, NPX/NPM</p></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span><h3>Full-Stack Development Traniee (MERN stack)</h3></span
+                  ><br />
+                  <span><p style="margin-top: -18px;">WeGems IT Experts        <p style="position: relative; left: 500px; bottom: 15px;">June'22 - December'22</p> </p></span
+                    ><br /><p style="margin-top: -30px;">In my traning period, we learned and implement various
+                        technologies like react js, bootstrap, node js and a database.
+                        We made several projects like an e-commerce website and a text
+                        converter using these technologies</p> 
+                <li><span><h3 style="margin-top: 30px;">
+                    Martian Internship Program  </h3><span><p>Persistent Systems       <p style="position: relative; left: 500px; bottom: 25px;">January'23 - June'23</p> </p></span
+                        ></span><br /><p style="margin-top: -30px;">Trained in DBMS(Database Management System), OOPs(Object Oriented Programms), SDLC(Software Development LifeCycle) and Cloud Computing</p></li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span><h3>Graduation - Btech Computer Science Engineering (2019-2023)</h3></span><br /><p style="margin-top: -20px;">Chandigarh Group Of Colleges, Landran</p>
+                </li>
+                <li>
+                  <span><h3>12th Standard</h3></span><br />
+                  <p style="margin-top: -20px;">Pratap Public School</p>
+                </li>
+                <li><span><h3>10th Standard</h3></span><br />
+                    <p style="margin-top: -20px;">Pratap Public School</p>
+                  </li></p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Certifications & Tranings</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Full Stack Development </h2>
+            <h3 style="position: relative; bottom: 13px;">(MERN Stack)</h3>
+            <p>In my traning period, we learned and implement various technologies like react js, bootstrap, node js and a database. We made several projects like an e-commerce website and a text converter using these technologies</p>
+            <a href="https://drive.google.com/file/d/1Dj5VHSL0z6heh4yLAgZnXyEEsDZD39Wm/view?usp=share_link">View Certificate</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-users"></i>
+            <h2>Martian Internship Program </h2>
+            <h3 style="position: relative; bottom: 13px;">(Persistent Systems)</h3>
+            <p>
+              Trained in DBMS(Database Management System), OOPs(Object Oriented Programms), SDLC(Software Development LifeCycle) and Cloud Computing</p>
+            <a href="https://drive.google.com/file/d/18-LSWYeA-CTMYSH5vBIhVAFJ8fPcpSGa/view?usp=share_link">View Certificate</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-compass-drafting"></i>
+            <h2>Front-End Development</h2>
+            <p>Trained in React.js, Bootstrap, jQuery, Advanced JS. Made Projects like Ecommerce Website.</p>
+            <a href="https://drive.google.com/file/d/12dinhkRBVVZDf9aHPjRIPlZL3zJuUXbm/view?usp=share_link">View Certificate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image2.png" alt="">
+            <div class="layer">
+              <h3>Tours and Travels - by ArpitTrust</h3>
+              <p>Tours and Travels by Indicart is a very user-friendly website which allows users to book and check about various world wide tours. Along with payment this website allows user to rate their trips Jogin and register.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img3.png" alt="">
+            <div class="layer">
+              <h3>IndiCart - by ArpitTrust</h3>
+              <p>IndiCart is an electronic e-commerce website that deals with music devices like headphones, earphones, speakers etc. Its very user-friendly website with payment gateways and dynamic pages</p>
+              <a href="https://github.com/arpittomar246/IndiCart-byArpitTrust.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img1.png" alt="">
+            <div class="layer">
+              <h3>News Monkey</h3>
+              <p>News Monkey is a news websites with categories of news that is searched, with latest API calling and user friendly interface.</p>
+              <a href="https://github.com/arpittomar246/Newsapp.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+
+
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i>arpittomar246@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9646049755</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/arpittomar/">   <i class="fa-brands fa-linkedin"></i>&nbsp; Linkedin</a>
+              <a href="https://twitter.com/Arpittomarr?t=97c6kR8AYDmd3z5kAcGqWA&s=09"><i class="fa-brands fa-twitter-square"></i>&nbsp;  Twitter</a>
+              <a href="https://www.snapchat.com/add/arpitomarr?share_id=oxTShuGvsyI&locale=en-US"><i class="fa-brands fa-square-snapchat"> </i>&nbsp;  Snapchat</a>
+              <a href="https://github.com/arpittomar246"><i class="fa-brands fa-github"></i>&nbsp;  Github</a>
+            </div>
+            <a href="Resume.pdf" download class="btn btn2 btn4">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <h3>Please feel free to message me here</h3>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" id=""  rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Created By Arpit Tomar |  2023-26 All rights reserved.</p>
+      </div>
+    </div>
+
+    <script>
+      var typed = new Typed(".typing", {
+        strings: ["Full-Stack Developer", "Designer", "Software Engineer"],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true,
+      });
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right="0"
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px"
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxpFVz5GU4ERexyyfyjcN5CJm5XotlHKZ09-AfZDek__jhLr9SEfvV74ndiH4RBY23JCg/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML= "Message Sent Successfully";
+            setTimeout(function(){
+              msg.innerHTML="";
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
